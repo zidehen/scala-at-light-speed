@@ -1,0 +1,147 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-at-light-speed-test",
+        "directory": "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed",
+        "workspaceDir": "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed",
+        "sources": [
+            "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/src/test/scala-2.13",
+            "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/src/test/scala",
+            "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/src/test/java",
+            "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies": [
+            "scala-at-light-speed"
+        ],
+        "classpath": [
+            "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/.bloop/scala-at-light-speed/scala-2.13/classes",
+            "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+        ],
+        "out": "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/.bloop/scala-at-light-speed",
+        "classesDir": "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/.bloop/scala-at-light-speed/scala-2.13/test-classes",
+        "resources": [
+            "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/src/test/resources",
+            "/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.1",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar",
+                "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/ZoeOluyomi/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/ZoeOluyomi/Documents/Coding/scala-at-light-speed"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/ZoeOluyomi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
